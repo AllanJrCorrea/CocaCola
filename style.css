@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+      font-size: 100%;
+  }
+  .cabecalho-menu {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 24px 24px 24px 50px;
+      gap: 70px;
+  }
+  .cabecalho-menu-item {
+    color: inherit;
+    font-size: 20px;
+    font-weight: 900px;
+  }

@@ -1,22 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-  }
-  body {
-      font-size: 100%;
-  }
-  .cabecalho-menu {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: flex-start;
-      padding: 24px 24px 24px 50px;
-      gap: 70px;
-  }
-  .cabecalho-menu-item {
-    color: inherit;
-    font-size: 20px;
-    font-weight: 900px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  font-family: 'Ubuntu', sans-serif;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 30px 72px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+
+}
+nav ul,
+nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul {
+  display: flex;
+}
+nav a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+ nav a:hover {
+  background-color: red;
+  color: white;
+}
+
+#parte1 {
+  padding: 20px 64px 20px 20px;
+  background-image: url(../CocaCola/Coca.png);
+  height: 350px;
+}
+.texto1-1 {
+  font-size: 40px;
+  width: 50%;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 50px;
+}
+.texto1-2 {
+  font-size: 20px;
+  width: 50%;
+  color: white;
+}
+.botao {
+  text-decoration: none;
+  color: black;
+}
+.texto1-botao {
+  background-color: white;
+  border: none;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 25px;
+}
+.texto1-botao:hover, .botao:hover{
+  color: white;
+  background-color: red;
+}

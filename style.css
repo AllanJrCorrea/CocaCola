@@ -85,14 +85,10 @@ nav a {
 }
 .texto2-1 {
   font-size: 50px;
-  margin: 20px 1px 1px 40%;
+  margin: 100px 1px 1px 40%;
 }
 .texto2-2 {
   font-size: 20px;
-  margin: 1px 1px 1px 37%;
-}
-.texto2-botao {
-  font-size: 14px;
   margin: 1px 1px 1px 37%;
 }
 .texto2-3 {
@@ -101,20 +97,67 @@ nav a {
 }
 .botao2 {
   text-decoration: none;
-  color: white;
-  
+  color:white;
 }
 .texto2-botao {
   background-color: black;
+  margin: 1px 1px 1px 39%;
   border: none;
   height: 50px;
-  padding: 0 80px;
+  padding: 0 60px;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
   border-radius: 25px;
 }
-.botao2:hover, .texto2-botao:hover {
+.texto2-botao:hover, .botao2:hover{
+  color: white;
   background-color: red;
-  color: black;
-
 }
+#parte3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 565px;
+  background-color: black;
+  color: white;
+}
+.texto3-1 {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+}
+.texto3-2 {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 27px;
+}
+.texto3-3 {
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.botao3 {
+  text-decoration: none;
+  color:white;
+}
+.texto3-botao {
+  margin: 1px 1px 20px 33%;
+  border: 1px solid rgb(27, 20, 20);
+  background-color: black;
+  height: 50px;
+  padding: 0 60px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 25px;
+}
+.texto3-botao:hover, .botao3:hover{
+  color: white;
+  background-color: red;

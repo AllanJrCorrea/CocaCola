@@ -42,8 +42,7 @@ nav a {
   font-size: 20px;
 }
  nav a:hover {
-  background-color: red;
-  color: white;
+   text-decoration: underline red;
 }
 
 #parte1 {
@@ -160,3 +159,82 @@ nav a {
 .texto3-botao:hover{
   background-color: red;
   border: 1px solid white;
+}
+
+
+.pai {
+  display: flex;
+  justify-content: space-between;
+}
+.filho {
+  padding: 50px 30px 30px 30px;
+}
+.filho-titulo {
+  font-size: 16px;
+  padding-bottom: 25px;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 400px;
+  letter-spacing: .25em;
+}
+.filho-titulo2 {
+  padding-bottom: 25px;
+  color: black;
+  line-height: 1.3em;
+  font-size: 40px;
+  letter-spacing: .01em;
+}
+.filho-botao {
+  margin-top: 50px;
+  width: auto;
+  color: white;
+  background-color: black;
+  border-color: black;
+  font-size: 16px;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-align: center;
+  border: 1px solid;
+  cursor: pointer;
+  text-decoration: none;
+}
+.filho-botao:hover {
+  border-color: black;
+  background-color: white;
+  color: black;
+}
+
+
+.filho1 {
+  width: 50%;
+  height: 270px;
+  padding:150px 20px;
+  background-color:#DB3534;
+  color: white;
+
+}
+.filho1-titulo {
+  font-size: 40px;
+  line-height: 1.3em;
+  letter-spacing: .01em;
+  padding-bottom: 25px;
+}
+.filho1-botao {
+  margin-top: 53px;
+  font-size: 16px;
+  padding: 15px 50px;
+  border-radius: 50px;
+  color: black;
+  text-align: center;
+  border: 1px solid;
+  border-color: white;
+  background-color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+.filho1-botao:hover {
+  color: black;
+  border-color: #e5e5e5;
+  background-color: #e5e5e5;
+}

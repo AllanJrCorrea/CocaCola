@@ -160,11 +160,15 @@ nav a {
   background-color: red;
   border: 1px solid white;
 }
-
-
+.pai1 {
+  display: flex;
+  justify-content: space-between;
+  height: 535px;
+}
 .pai {
   display: flex;
   justify-content: space-between;
+  height: 550px;
 }
 .filho {
   padding: 50px 30px 30px 30px;
@@ -237,4 +241,65 @@ nav a {
   color: black;
   border-color: #e5e5e5;
   background-color: #e5e5e5;
+}
+
+.rodape {
+  display: flex;
+  background-color: #201e1e;
+  justify-content: space-between;
+  padding: 51px 20px;
+  color: white;
+  letter-spacing: .05em
+}
+.rodapelink {
+  font-size: 14px;
+  letter-spacing: .05em;
+  cursor: pointer;
+}
+.rodapelink:hover {
+  text-decoration: underline white;
+}
+.rodape4 {
+  margin-bottom: 37px;
+  text-decoration: none;
+}
+.rodape4-botao, .rodape5-botao1 {
+  padding: 15px 25px;
+  margin: 0 0 17;
+  width: 165px;
+  color: black;
+  border-color: white;
+  background-color: white;
+  font-size: 16px;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid;
+  border-color: white;
+}
+.rodape4-botao:hover, .rodape5-botao1:hover {
+  border: 2px solid;
+  border-color: red;
+}
+
+.final {
+  display: flex;
+  background-color: #191919;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  text-align: center;
+}
+.final-texto1 {
+  font-size: 9px;
+  line-height: 1;
+  margin-bottom: 15px;
+  max-width: 900px;
+  width: 100%;
+}
+.final-texto2 {
+  font-size: 16px;
 }
